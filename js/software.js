@@ -6,13 +6,17 @@ const phone = document.querySelector(".dynamic__img");
 const heading = document.querySelector(".dynamic__heading");
 const par = document.querySelector(".dynamic__paragraph");
 const owls = document.querySelectorAll(".owl");
+const first = document.querySelector(".first"); 
+const second = document.querySelector(".second");
+const third = document.querySelector(".third");
+const fourth = document.querySelector(".fourth");
+const fifth = document.querySelector(".fifth");
+const sixth = document.querySelector(".sixth");
+const seventh = document.querySelector(".seventh");
+const eight = document.querySelector(".eight");
+const nineth = document.querySelector(".nineth");
 
-for(owl of owls){
-    owl.addEventListener("click" ,function(){
-        owls.style.background = "#adadad";
-        owl.style.background = "#000";
-    });
-}
+
 
 
 right.addEventListener("click",  function(){
