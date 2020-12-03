@@ -41,12 +41,14 @@ header text{
 
 .hero__img img{
     margin: 0px;
+    margin-bottom: 2%;
     height: 100%;
     width: 100%;
 }
 
 .hero_awards{
     position: relative;
+    top: 20%;
     color: #fff;
     margin: 0px;
     font-size: 180%;
@@ -204,7 +206,7 @@ header a:hover{
 
 .phone__txt{
     position: absolute;
-    bottom:-830%;
+    bottom:-812%;
     left: 30%;
 }
 .phone__txt h2 , p{
@@ -213,8 +215,8 @@ header a:hover{
 
 
 .phone img{
-    height: 70%;
-    width: auto;
+    height: 50rem;
+    width: 50%;
 }
 
 footer{

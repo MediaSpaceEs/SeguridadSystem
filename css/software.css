@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif; 
+    width:100%;
+}
+
+body div{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background: #000;
+    padding-bottom: 0.25%;
+    padding-top: 0.25%;
+    width: 100vw;
+    position: fixed;
+    top:100;
+    z-index: 999;
+}
+
+header text{
+    width:50%;
+}
+
+header a{
+    color:#fff;
+    margin: 0;
+    padding: 0.8%;
+    font-size: medium;
+    position: relative;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+header a:hover{
+    color: rgb(144, 209, 101);
+}
+
+.hero img{
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+}
+
+.hero{
+    background-image: url(../img/software.jpg);
+    background-size: cover;
+    margin-left: 0px !important;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+
+.hero__txt{
+    font-size: 1.5rem;
+    align-self: flex-end;
+    color: #ededed;
+    text-align: center;
+    width: 100vw;
+}
+
+.hero__txt h1{
+    margin: 2% 0;
+    padding: 0;
+    position: relative;
+}
+
+.hero__txt p{
+    margin: 2% 0;
+    padding: 0;
+    position: relative;
+}
+
+.app{
+    padding:7% 0%;
+    margin: 0px;
+    background: #ededed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app img{
+    align-self: center;
+    justify-content: center;
+    width: 10vw;
+    height: 10vh;
+}
+
+.app__text{
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 50vw;
+    max-width: 100%;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    width:25vw;
+    height: 10vh;
+    margin-bottom: 7%;
+}
+.app-store{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 1vh;
+    border: 0.15rem solid #a6a6a6;
+    border-radius: 6px;
+    width:10vw;
+    padding-left: 0.3vw;
+    height: 5.5vh;
+    padding-top: 1vh;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color:#a6a6a6;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 1vh;
+    padding-left: 0.3vw;
+    flex-direction: row;
+    border: 0.15rem solid #a6a6a6;
+    border-radius: 6px;
+    width:10vw;
+    height: 5.5vh;
+    padding-top: 1vh;
+    text-decoration: none;
+
+}
+
+.play p {
+    text-decoration: none;
+    margin: 0;
+    color:#a6a6a6;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.app-store p{
+    text-decoration: none;
+    margin: 0;
+    color:#a6a6a6;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+
+.app-store img, .play img{
+    height: 5vh;
+    width: 2.7vw;
+} 
+
+.logo{
+    margin: 0 !important;
+    display: block;
+    height: 4vh;
+    width: 2.7vw;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dynamic{
+    position: relative;
+    left: 17%;
+    height: 95vh;
+    width: 20vw;
+}
+
+.dynamic img{
+    height: 95vh;
+    width: 22vw;
+}
+
+.dynamic__txt{
+    text-align: left;
+    padding-top: 10%;
+    height: 30vh;
+}
+
+.desc{
+ display: flex;
+ flex-direction: column;
+}
+
+.pointer{
+    height: 8vh;
+    width: 4vw;
+    outline: none;
+    border: none;
+    background: #000;
+    transition:0.5s;
+}
+
+.pointer img{
+    position: relative;
+    top: 1%;
+    height: 4vh;
+    width: 2vw;
+}
+
+
+
+.left{
+  border-top-left-radius: 50%;
+  border-bottom-left-radius:50%;
+}
+
+.right{
+  border-top-right-radius: 50%;
+  border-bottom-right-radius:50%;
+  margin-right:0;
+}
+
+.pointer:hover{
+    background:rgb(133, 133, 133);
+}
+
+.owl{
+    padding: 0;
+    height: 1vh;
+    width: 0.5vw;
+    border-radius: 100%;
+    margin-right: 4px;
+    outline:none;
+    border:none;
+    background: #adadad;
+}
+
+.first{
+  background: #000;
+}
+
+.carousel{
+    align-self: center;
+    margin-left: 10%;
+}
+
+.changing{
+    display: flex;
+    flex-direction: row;
+}
