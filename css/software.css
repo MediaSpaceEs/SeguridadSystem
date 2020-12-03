@@ -203,6 +203,14 @@ header a:hover{
     height: 30vh;
 }
 
+.dynamic__txt p{
+    font-size:1rem;
+}
+
+.dynamic__txt h2{
+    font-size:2rem;
+}
+
 .desc{
  display: flex;
  flex-direction: column;
@@ -241,27 +249,63 @@ header a:hover{
     background:rgb(133, 133, 133);
 }
 
-.owl{
-    padding: 0;
-    height: 1vh;
-    width: 0.5vw;
-    border-radius: 100%;
-    margin-right: 4px;
-    outline:none;
-    border:none;
-    background: #adadad;
-}
-
-.first{
-  background: #000;
-}
-
-.carousel{
-    align-self: center;
-    margin-left: 10%;
-}
 
 .changing{
     display: flex;
     flex-direction: row;
+}
+
+
+
+footer{
+    background: rgb(39, 37, 37);
+    padding: 5%;
+    padding-bottom: 2%;
+
+    }
+
+.contacts a{
+    position: relative;
+    color: #eee;
+    text-decoration: none;
+}
+
+.contacts{
+    color:#eee;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+}
+
+footer form input{
+    width:29%;
+    outline:none;
+    box-shadow: none;
+}
+
+footer form textarea{
+    outline:none;
+    width:29%;
+    margin-bottom: 2%;
+}
+
+footer form button{
+    width:7%;
+    height: 10%;
+    font-family: 'Montserrat', sans-serif; 
+    margin-bottom: 2%;
+    transition: 1s;
+    outline:none;
+    border:none;
+    border-radius: 3%;
+
+
+}
+
+footer form button:hover{
+    background-color:#acabab;
+
 }
