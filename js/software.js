@@ -93,7 +93,6 @@ left.addEventListener("click" ,function(){
      }
    }else{
        index--;
-
        if(index == 1){
         phone.setAttribute("src" , "../img/phone/1.png");
      }else if(index == 2){
