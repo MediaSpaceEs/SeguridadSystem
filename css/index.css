@@ -137,6 +137,7 @@ header a:hover{
 } 
 
  .water{
+    overflow: hidden;
     background: #DBDBDB;
     padding: 0 3vw;
     padding-bottom: 5%;
@@ -146,7 +147,8 @@ header a:hover{
 
 
 .water video{
-    height: 150vh;
+    height: 130vh;
+    width: 70vw;
     align-self: center;
     margin: 0;
     outline: 0px;
@@ -287,7 +289,14 @@ footer form button:hover{
 
 }
 
+footer form button:focus{
+    background-color:rgb(144, 209, 101);
 
+}
+
+iframe{
+    display: none;
+}
 
 
 

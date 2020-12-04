@@ -40,12 +40,12 @@ header a:hover{
     display: flex;
     flex-direction:row;
     width:100vw;
-    height:90vh;
+    height:60vh;
 }
 
 .white{
     width:50vw;
-    height:90vh;
+    height:60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ header a:hover{
 .black{
     background: rgb(27, 26, 26);
     width:50vw;
-    height:90vh;
+    height:60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,4 +112,13 @@ footer form button{
 footer form button:hover{
     background-color:#acabab;
 
+}
+
+footer form button:focus{
+    background-color:rgb(144, 209, 101);
+
+}
+
+iframe{
+    display: none;
 }
