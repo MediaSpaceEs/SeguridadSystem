@@ -261,19 +261,16 @@ footer form{
 }
 
 footer form input{
-    width:29%;
     outline:none;
     box-shadow: none;
 }
 
 footer form textarea{
     outline:none;
-    width:29%;
     margin-bottom: 2%;
 }
 
 footer form button{
-    width:7%;
     height: 10%;
     font-family: 'Montserrat', sans-serif; 
     margin-bottom: 2%;
@@ -295,6 +292,16 @@ footer form button:focus{
 
 }
 
+@media(min-width:750px){
+    footer input, footer textarea{
+        width:29%;
+    }
+
+    footer form button{
+        width: 7%;
+    }
+}
+
 iframe{
     display: none;
 }
@@ -313,7 +320,7 @@ iframe{
   }
 
   div{
-      width: 125%;
+      width: 131%;
       overflow: hidden;
   }
 
@@ -369,7 +376,7 @@ iframe{
 
    .water{
        height: 100%;
-       width: 119%;
+       width: 125%;
    }
 
    .water video{
@@ -433,6 +440,18 @@ iframe{
    .phone__txt p{
     font-size: 1rem;
 }
+    footer{
+        height: 100%;
+        width: 121%;
+    }
+
+    .contacts{
+        width:100vw;
+    }
+
+    footer input, footer textarea{
+        width:70%;
+    }
 
 }
 
