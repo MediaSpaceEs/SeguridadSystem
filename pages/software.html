@@ -66,17 +66,23 @@
     </div>
 
     <footer>
-        <form action="">
+
+        <iframe src="" frameborder="0" id="hidden" name="hidden" class="hidden"></iframe>
+        <form action="https://usebasin.com/f/1af9bed8fa8f" method="POST" target="hidden" class="footer__form">
             <label for="name" class="name">Nombre</label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="Name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email">
+
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" name="Telephone">
 
             <label for="request" class="req">Mensaje</label>
-            <textarea id="request" cols="30" rows="10"></textarea>
+            <textarea id="request" cols="30" rows="8" name="Request"></textarea>
 
-            <button class="form__btn">Solicitar</button>
+            <button class="form__btn" type="submit">Solicitar</button>
         </form>
-        </form>
-
         <div class="contacts">
             <a href="mailto:info@seguridadsystem.site">Email: info@seguridadsystem.site</a>
             <br>

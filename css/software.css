@@ -57,6 +57,10 @@ header a:hover{
     z-index: -1;
 }
 
+iframe{
+    display: none;
+}
+
 .hero__txt{
     font-size: 1.5rem;
     align-self: flex-end;

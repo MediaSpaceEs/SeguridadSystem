@@ -4,7 +4,11 @@ let index = 1;
 const phone = document.querySelector(".dynamic__img");
 let heading = document.querySelector(".dynamic__heading");
 let par = document.querySelector(".dynamic__paragraph");
+let form = document.querySelector(".footer__form");
 
+form.addEventListener("submit", function(){
+   form.reset();;
+});
 
 
 
