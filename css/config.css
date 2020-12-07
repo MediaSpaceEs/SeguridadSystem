@@ -40,3 +40,8 @@ header a{
 header a:hover{
     color: rgb(144, 209, 101);
 }
+
+.hero img{
+    height: 70vh;
+    width:100vw;
+}

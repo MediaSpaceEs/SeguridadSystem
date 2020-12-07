@@ -61,6 +61,8 @@ iframe{
     display: none;
 }
 
+
+
 .hero__txt{
     font-size: 1.5rem;
     align-self: flex-end;
@@ -262,11 +264,26 @@ iframe{
 
 
 footer{
-    background: rgb(39, 37, 37);
+    background: #252325;
     padding: 5%;
     padding-bottom: 2%;
-
+    height: 80vh;
     }
+
+.vid{
+    width: 50%;
+    display: block;
+    height: 30%;
+    outline:none;
+    position: relative;
+    left: 50%;
+    bottom:85%;
+    
+}
+
+.vid video{
+    outline:none;
+}
 
 .contacts a{
     position: relative;

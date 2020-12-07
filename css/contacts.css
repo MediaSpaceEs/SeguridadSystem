@@ -21,6 +21,8 @@ header text{
     width:50%;
 }
 
+
+
 header a{
     color:#fff;
     margin: 0;
@@ -62,11 +64,26 @@ header a:hover{
 
 
 footer{
-    background: rgb(39, 37, 37);
+    background: #252325;
     padding: 5%;
     padding-bottom: 2%;
-
+    height: 80vh;
     }
+
+.vid{
+    width: 50%;
+    display: block;
+    height: 30%;
+    outline:none;
+    position: relative;
+    left: 50%;
+    bottom:85%;
+    
+}
+
+.vid video{
+    outline:none;
+}
 
 .contacts a{
     position: relative;
