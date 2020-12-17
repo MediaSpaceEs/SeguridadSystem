@@ -31,6 +31,11 @@ body, html{
     
 }
 
+.img img{
+    height: 200px;
+    width: 200px;
+}
+
 .vid button{
     align-self: center;
 }
@@ -40,7 +45,7 @@ a{
     border: none;
     outline:none;
     color: #eee;
-    background: rgb(120, 85, 134);
+    background:#313840;
     transition: 1s;
     text-align: center;
     text-decoration: none;
