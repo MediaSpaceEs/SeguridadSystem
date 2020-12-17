@@ -32,8 +32,8 @@ body, html{
 }
 
 .img img{
-    height: 200px;
-    width: 200px;
+    height: inherit;
+    width: inherit;
 }
 
 .vid button{
