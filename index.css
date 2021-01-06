@@ -1,58 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-body, html{
+body,
+html {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: 'Montserrat', sans-serif; 
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-.hero{
+.hero {
     padding-top: 10%;
     padding-bottom: 20%;
     background: rgb(190, 187, 187);
     height: 50vh;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
 }
 
-.pag{
+.pag {
     display: flex;
     flex-direction: column;
 }
 
-.img{
+.img {
     background: #000;
     height: 200px;
     width: 200px;
-    
 }
 
-.img img{
+.img img {
     height: inherit;
     width: inherit;
 }
 
-.vid button{
+.vid button {
     align-self: center;
 }
 
-a{
-    margin-top: 30%;
+a {
+    margin-top: 30px;
     border: none;
-    outline:none;
+    outline: none;
     color: #eee;
-    background:#313840;
+    background: #313840;
     transition: 1s;
     text-align: center;
     text-decoration: none;
     padding: 1%;
-
 }
 
-a:hover{
+a:hover {
     background-color: rgb(164, 165, 167);
+}
+
+@media(max-width:750px) {
+    .hero {
+        padding-top: 10%;
+        padding-bottom: 20%;
+        background: rgb(190, 187, 187);
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .img {
+        background: #000;
+        height: 90px;
+        width: 90px;
+        margin-left: 10px;
+    }
+    .img img {
+        height: inherit;
+        width: inherit;
+    }
+    a {
+        width: 90%;
+        font-size: 0.75rem;
+    }
+    .hero {
+        width: 100vw;
+        height: 100vh;
+    }
 }
